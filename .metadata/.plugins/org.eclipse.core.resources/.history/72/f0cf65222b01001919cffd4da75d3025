@@ -1,0 +1,11 @@
+package com.ourTownBus.content.home;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class SvlHome {
+
+	public String Svlhome(){
+		return "page/home/home";
+	}
+}

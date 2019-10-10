@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+/* class영역  */
+.mainHeader{ min-height: 80px; border-Bottom :  1px solid #c6cbcb; }
+.mainfloor{ border-Top :  1px solid #c6cbcb; margin-top: 5%; background-color: white; min-height: 12.2%; }
+
+.font_godic { font-family: "Nanum Gothic", sans-serif; font-weight: bold; }
+.bus_Info_font_godic { font-family: "Nanum Gothic", sans-serif; font-weight: bold; font-size: 14pt;}
+.busData_font_godic { font-family: "Nanum Gothic", sans-serif; }
+.Box{ background-color: #fff; border: 1px solid #c6cbcb; }
+
+
+.weather_line{ margin-top:50px; min-height: 150px; border-radius: 15px; }
+.weather_Box{ background-color: #58ACFA; color: white; border-right: 1px solid white; margin-bottom: 5px; border-radius: 15px; }
+
+
+
+.bus_line{ margin-top:25px; min-height: 310px; border-radius: 15px; }
+.bus_searchLine{ min-height: 65px; }
+.busOrStop { font-family: "Nanum Gothic", sans-serif; font-weight: bold; color: #D8D8D8; }
+
+.tableHover:HOVER{background-color: #F8E0E0;}
+
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+/* class영역  */
+
+
+
+/* 태그영역  */
+html, body{ height: 100%; }
+a:HOVER{ color: #F7819F; font-size: 12pt; }
+/* 태그영역  */
+
+
+
+/* id 영역 */
+#section1_logo{ max-height: 80px; }
+#section2_topBar{ margin-top: 25px; font-size: 14pt; }
+
+#content{ background-color: #fafafa; height: 72%; }
+#myCarousel{ max-height: 150px; min-height: 190px; }
+#bus_Content{ background-color: #fafafa; height: 100%; }
+/* id 영역 */
+
+
+

@@ -1,0 +1,13 @@
+package com.ourTownBus.content.home;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class SvlHome {
+
+	@RequestMapping(value = "/")
+	public String Svlhome(){
+		return "test";
+	}
+}

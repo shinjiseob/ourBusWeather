@@ -145,7 +145,7 @@
 		<dependency>
 		  <groupId>org.mybatis</groupId>
 		  <artifactId>mybatis</artifactId>
-		  <version>3.4.1</version>
+		  <version>3.5.6</version>
 		</dependency>
 		
 		<!-- 마이바티스와 스프링 연동을 위한 라이브러리 -->
